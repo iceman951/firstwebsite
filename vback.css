@@ -1,0 +1,319 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 .vdo1 {
+  position: fixed; ;
+  right: 0;
+  bottom: 0;
+}
+
+.bgimg-2 {
+  opacity: 0.65;
+  background-image: url("img1.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  opacity: 0.65;
+  background-image: url("img3.jpg");
+  min-height: 400px;
+}
+
+.sec-1 h1{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 30px "Lato", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.sec-1 h2{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 30px "Lato", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.sec-1 h3{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 30px "Lato", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.sec-1 {
+
+  font-family: "Lato", sans-serif;
+  background-image: url("asd.jpg");
+  font: 30px/1.8 "Lato", sans-serif;
+
+}
+
+.sec-2 h3{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Lato", sans-serif;
+  color: white;
+}
+
+.sec-2 {
+  text-shadow: 2px 3px black;
+  font-family: "Lato", sans-serif;
+  font: 30px/1.8 "Lato", sans-serif;
+}
+
+.sec-3 h3{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Lato", sans-serif;
+  color: white;
+}
+
+.sec-3 {
+  text-shadow: 2px 3px black;
+  font-family: "Lato", sans-serif;
+  font: 30px/1.8 "Lato", sans-serif;
+}
+
+.sec-20 h3{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Lato", sans-serif;
+  color: white;
+}
+
+.sec-20 {
+  background-image: url("bg1.jpg") ;
+  text-shadow: 2px 3px black;
+  font-family: "Lato", sans-serif;
+  font: 30px/1.8 "Lato", sans-serif;
+
+}
+
+
+.slide {
+  background-image: url("bgsl.jpg") ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.active {
+    background-color: #990000;
+}
+
+
+
+#Container_03 {
+        margin-top:30px;
+        background-image: url('bg2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        ;height:1200px;
+}
+
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    color: black;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+
+}
+
+
+
+
+.btn {
+    background-color: #0066ff; /* light blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
